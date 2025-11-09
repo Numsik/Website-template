@@ -1,0 +1,36 @@
+.smallermargin{
+    margin-top: 0px;
+}
+.image-row {
+  display: grid;
+  gap: 10px;
+  height: 330px;
+}
+
+.image-row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.image-row.first {
+  grid-template-columns: 300px 525px 300px;
+  margin-bottom: 20px;
+}
+
+
+.image-row.second {
+  grid-template-columns: 525px 300px 300px;
+}
+@media (max-width: 768px) {
+  .image-row {
+    grid-template-columns: 1fr;
+    height: auto; 
+  }
+
+  .image-row img {
+    height: 250px; 
+  }
+}
+
