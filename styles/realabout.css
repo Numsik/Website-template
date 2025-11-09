@@ -67,3 +67,15 @@
 .gap{
     gap: 20px;
 }
+.secpodnadpis{
+    margin-top: 150px;
+}
+.gapik{
+    margin-top: 70px;
+    gap: 50px;
+}
+.phonenumber{
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--yellow-color);
+}
