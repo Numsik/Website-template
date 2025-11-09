@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #FEEFDA;
+    --secondary-color: #131217;
+    --yellow-color: #FFC500;
+    --grey-color: #A9A9A9;
+}
+body{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+}
+.section{
+    padding: 60px;
+}
+.container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
