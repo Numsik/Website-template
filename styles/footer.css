@@ -1,0 +1,13 @@
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 50%;
+}
+.fotterik p {
+    color: white;
+}
+.lowerpadding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
