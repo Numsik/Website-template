@@ -51,3 +51,13 @@
 .num{
     margin-top: 150px;
 }
+
+@media (max-width: 991px){
+    .ourmenu{
+        font-size: 16px;
+    }
+    .findourmenu{
+        font-size: 40px;
+    }
+
+}

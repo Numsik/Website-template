@@ -79,3 +79,23 @@
     font-weight: 500;
     color: var(--yellow-color);
 }
+@media (max-width: 991px){
+    .abouth3{
+        font-size: 80px;
+    }
+    .abouttext{
+        font-size: 18px;
+    }
+    .podnadpisekk{
+        font-size: 28px;
+    }
+    .podnapisekktextik{
+        font-size: 15px;
+        max-width: 450px;
+    }
+    .grey{
+        width: 250px;
+        height: 250px;
+    }
+
+}

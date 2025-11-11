@@ -21,14 +21,31 @@
 
 
 .image-row.second {
-  grid-template-columns: 525px 300px 300px;
+    grid-template-columns: 525px 300px 300px; 
 }
+
+@media (max-width: 991px){
+  .image-row{
+    height: 250px;
+  }
+  .image-row img{
+    height: 250px; 
+    object-fit: cover;
+  }
+  .image-row.first{
+    grid-template-columns: 1fr 1.3fr 1fr;
+  }
+  .image-row.second{
+    grid-template-columns: 1fr 1.3fr 1fr;
+  }
+  
+}
+
 @media (max-width: 768px) {
   .image-row {
     grid-template-columns: 1fr;
     height: auto; 
   }
-
   .image-row img {
     height: 250px; 
   }

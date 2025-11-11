@@ -25,34 +25,11 @@
     text-align: center;
 }
 
-.slide-up {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: slideUp 0.8s ease-out forwards;
-}
-
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+@media (max-width: 991px) {
+  .maintext{
+    font-size: 80px;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .mainsection{
+    height: 400px;
   }
-}
-.fade-up{
-    animation: fadeUp both;
-    animation-timeline: view();
-
-}
-@keyframes fadeUp{
-    from{
-        opacity: 0;
-        transform: translateY(10px) scale(0.5);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
 }

@@ -27,3 +27,18 @@
     background-color: rgb(77, 77, 77);
     margin-top: -50px;
 }
+@media (max-width: 991px) {
+    .frinedlytext{
+        font-size: 22px;
+    }
+    .bestfood{
+        font-size: 80px;
+    }
+    .imggg{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+}

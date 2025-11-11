@@ -21,3 +21,12 @@
     max-width: 400px;
     color: var(--grey-color)
 }
+@media (max-width: 991px) {
+    .twocollumgrid{
+        grid-template-columns: 220px 380px;
+    }
+    .callus{
+        font-size: 18px;
+        height: 55px;
+    }
+}
