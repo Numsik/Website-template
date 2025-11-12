@@ -77,3 +77,25 @@ textarea {
   color: white;
 
 }
+
+@media (max-width: 991px){
+    .contactus{
+        font-size: 80px;
+    }
+    .wheretofindus{
+        font-size: 30px;
+    }
+    .opentime{
+        font-size: 22px;
+    }
+    .timing{
+        font-size: 14px;
+    }
+    .width450px{
+        flex: 0 0 300px;
+    }
+    .width600px{
+    flex: 0 0 400px;
+    }
+
+}

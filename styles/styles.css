@@ -84,3 +84,9 @@ body{
         translate: 0 0;
     }
 }
+@media (max-width: 991px){
+    .section{
+        padding: 30px;
+
+    }
+}
